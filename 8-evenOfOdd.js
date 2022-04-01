@@ -23,3 +23,4 @@ function even_or_odd(number) {
   
   // WHAT I LEARNED
   // The boolean value of 0 is false or falsy, so setting 'number % 2 === 0' is not necessary. 
+  
