@@ -22,5 +22,5 @@ function repeatStr (n, s) {
 //   }
 
 // WHAT I LEARNED
-// The repeat() method. It constructs and returns a new string that contains the specified number of copies of the string concatenated together
+// The repeat() method constructs and returns a new string that contains the specified number of copies of the string concatenated together
 // syntax: repeat(count)
