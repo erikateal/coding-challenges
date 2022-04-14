@@ -15,7 +15,7 @@ class SmallestIntegerFinder {
   }
   
   // BEST PRACTICE
-  // same as above
+  // same as above 
   
   // WHAT I LEARNED
   // Spread syntax
