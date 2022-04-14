@@ -10,7 +10,7 @@
 // MY SOLUTION
 function numberToString(num) {
     return num.toString();
-  }
+  } 
 
 // BEST PRACTICE
 //same as above
