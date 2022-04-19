@@ -31,4 +31,4 @@ function litres(time) {
 // }
 
 // WHAT I LEARNED
-// Practiced use of Math.floor() method
+// Practiced use of Math.floor() 
