@@ -22,5 +22,4 @@ function digitize(n) {
 // function digitize(n) {
 //   return String(n).split('').map(Number).reverse()
 // }
-// WHAT I LEARNED
-// 
+
