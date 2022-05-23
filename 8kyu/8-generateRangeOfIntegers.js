@@ -18,13 +18,13 @@
 // the range does not HAVE to include max (depending on the step)
 
 // // MY SOLUTION
-// function generateRange(min, max, step){
-//     let arr = [];
-//     for (let i=min; i<=max; i += step) {
-//       arr.push(i);
-//     }
-//     return arr;
-//   }
+function generateRange(min, max, step){
+    let arr = [];
+    for (let i=min; i<=max; i += step) {
+      arr.push(i);
+    }
+    return arr;
+  }
 
 // BEST PRACTICE
 // same as above
