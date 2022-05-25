@@ -13,11 +13,8 @@
 
 // MY SOLUTION
 function sumTwoSmallestNumbers(numbers) {  
-    if(numbers.length > 4){
-      return numbers.sort((a,b) => b-a).splice(3).reduce((acc,c) => acc+c,0)
-    } 
-      return numbers.sort((a,b) => b-a).splice(2).reduce((acc,c) => acc+c,0)
-  }
+    return numbers.sort((a,b) => a-b).slice(0,2).reduce((acc,c) => acc+c,0)
+}
 
 // BEST PRACTICE
 // function sumTwoSmallestNumbers(numbers){  
