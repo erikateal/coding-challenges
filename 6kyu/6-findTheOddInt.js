@@ -17,10 +17,10 @@
 // [1,2,2,3,3,3,4,3,3,3,2,2,1] should return 4, because it appears 1 time (which is odd).
 
 // // MY SOLUTION
-// function findOdd(A) {
-//     A.map(num => A.filter(x => x == num).length % 2 !== 0 ? oddSum = num : null)
-//     return oddSum
-//   }
+function findOdd(A) {
+    A.map(num => A.filter(x => x == num).length % 2 !== 0 ? oddSum = num : null)
+    return oddSum
+  }
 
 // BEST PRACTICE
 // const findOdd = (xs) => xs.reduce((a, b) => a ^ b);
