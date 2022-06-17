@@ -1,4 +1,4 @@
-# Daily Codewars Challenges
+# Daily Coding Challenges
 
 <p align="center">
 <a href="https://www.codewars.com/users/erikateal/badges/large" target="_blank" rel="noreferrer"><img src="https://www.codewars.com/users/erikateal/badges/large"></a>
