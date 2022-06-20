@@ -22,7 +22,7 @@ function noBoringZeros(n) {
     n = n.toString().split('')
     for(let i=n.length; i>=0; i--){
         if(n[n.length-1] === '0'){
-        n.pop()
+            n.pop()
         }
     }
     return +n.join('')
