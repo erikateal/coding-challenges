@@ -16,7 +16,7 @@
 
 // Notes
 // The parameters (divisor, bound) passed to the function are only positive values .
-// It's guaranteed that a divisor is Found .
+// It's guaranteed that a divisor is Found.
 
 // MY SOLUTION
 function maxMultiple(divisor, bound){
