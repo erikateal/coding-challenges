@@ -32,6 +32,17 @@ function mxdiflg(a1, a2) {
       return a[0].length - b[b.length -1].length
   }
 
+// REFACTORED 
+function mxdiflg(a1, a2) {
+    let a = a1.sort((a,b) => b.length-a.length)
+    let b = a2.sort((a,b) => b.length-a.length)
+    
+    if(a1.length === 0 || a2.length === 0){
+      return -1
+    } 
+      return Math.max(b[0].length - a[a.length -1].length, a[0].length - b[b.length -1].length)
+  }
+  
 // BEST PRACTICE
 // function mxdiflg(a1, a2) {
 //   if (a1.length === 0 || a2.length === 0) return -1
