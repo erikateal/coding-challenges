@@ -13,5 +13,10 @@
 // "No?" --> "No?"
 
 // MY SOLUTION
+function ensureQuestion(s) {
+    return s[s.length -1] === '?' ? s : s + '?'
+  }
+
+// BEST PRACTICE
 const ensureQuestion = s => s.endsWith('?') ? s : s+'?'
 
