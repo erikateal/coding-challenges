@@ -97,3 +97,38 @@ var numIslands = function(grid) {
 
 // WHAT I LEARNED
 // dFS and bFS 
+
+// ALT SOLUTION
+// function dfs(grid, r, c) {
+//     if(r < 0 || c < 0 || r >= grid.length || c >= grid[0].length || grid[r][c] === '0') {
+//         // end operation if any conditional is met
+//         return;
+//     }
+  
+//     // redefine current search to "0" so we don't count this again
+//     grid[r][c] = '0'
+//     // call dfs function with all horizontal and vertical movements of +1
+//     dfs(grid, r + 1, c)
+//     dfs(grid, r - 1, c)
+//     dfs(grid, r, c + 1)
+//     dfs(grid, r, c - 1)
+//   }
+  
+//   function numIslands(grid) {
+//     let islandCount = 0
+//     // loop through grid length (row)
+//     for(let r = 0; r < grid.length; r++) {
+//         // loop through grid subarray (element in row)
+//         for(let c = 0; c < grid[0].length; c++) {
+//             // if element is === '1'
+//             if(grid[r][c] === '1') {
+//                 // count an island
+//                 count++
+//                 // depth-first search
+//                 dfs(grid, r, c)
+//             }
+//         }
+//     }
+//     return islandCount
+//   }
+  
