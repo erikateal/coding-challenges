@@ -40,7 +40,7 @@
 // 1 <= target <= 30
 
 // MY SOLUTION
-/**
+/*
  * @param {number[]} candidates
  * @param {number} target
  * @return {number[][]}
