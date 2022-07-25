@@ -11,8 +11,6 @@
 
 // You can return the answer in any order.
 
- 
-
 // Example 1:
 
 // Input: nums = [2,7,11,15], target = 9
@@ -26,7 +24,6 @@
 
 // Input: nums = [3,3], target = 6
 // Output: [0,1]
- 
 
 // Constraints:
 
@@ -36,26 +33,26 @@
 // Only one valid answer exists.
 
 // MY SOLUTION
-/**
+/*
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
  */
- var twoSum = function(nums, target) {
-    let targetArr = [];
-    
-    // loop through each element in the array to find possible pairs that add to equal the target (brute force - not the most efficient)
-    for(let i=0; i < nums.length; i++){
-        for(let j=0; j < nums.length; j++){
-            // if num[i] + num[j] === target and [i] is not equal to [j]
-            if(i !== j && nums[i] + nums[j] === target){
-                // push these indices to the new array if they meet the requirements above
-                targetArr.push(i,j);
-            }
-        }
+var twoSum = function (nums, target) {
+  let targetArr = [];
+
+  // loop through each element in the array to find possible pairs that add to equal the target (brute force - not the most efficient)
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = 0; j < nums.length; j++) {
+      // if num[i] + num[j] === target and [i] is not equal to [j]
+      if (i !== j && nums[i] + nums[j] === target) {
+        // push these indices to the new array if they meet the requirements above
+        targetArr.push(i, j);
+      }
     }
-    // return the array while filtering out duplicates by storing only unique values 
-    return [...new Set(targetArr)];
+  }
+  // return the array while filtering out duplicates by storing only unique values
+  return [...new Set(targetArr)];
 };
 
 // OPTIMIZED SOLUTION
