@@ -14,10 +14,11 @@
 // "Why isn't my code working?"  -->  "W  H  Y  I  S  N  '  T  M  Y  C  O  D  E  W  O  R  K  I  N  G  ?"
 
 // MY SOLUTION
-
+function vaporcode(string) {
+  return Array.from(string.replace(/\s/g, "").toUpperCase()).join("  ");
+}
 
 // BEST PRACTICE
-// 
-
-// WHAT I LEARNED
-// 
+// function vaporcode(string) {
+//   return string.toUpperCase().split(" ").join("").split("").join("  ");
+// }
