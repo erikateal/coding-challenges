@@ -24,7 +24,6 @@ function domainName(url) {
 
   return url[0].toString();
 }
-
 //BEST PRACTICE
 // function domainName(url){
 //   url = url.replace("https://", '');
