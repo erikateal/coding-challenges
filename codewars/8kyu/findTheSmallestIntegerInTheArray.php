@@ -1,19 +1,21 @@
-<!-- OBJECTIVE -->
-<!-- Find the smallest integer in the array -->
+<?php
 
-<!-- LINK -->
-<!-- https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/php -->
+// OBJECTIVE
+// Find the smallest integer in the array
 
-<!-- INSTRUCTIONS -->
-<!-- Given an array of integers your solution should find the smallest integer.
+// LINK
+// https://www.codewars.com/kata/55a2d7ebe362935a210000b2
 
-For example:
+// INSTRUCTIONS
+// Given an array of integers your solution should find the smallest integer.
 
-Given [34, 15, 88, 2] your solution will return 2
-Given [34, -345, -1, 100] your solution will return -345
-You can assume, for the purpose of this kata, that the supplied array will not be empty. -->
+// For example:
 
-<!-- MY SOLUTION -->
+// Given [34, 15, 88, 2] your solution will return 2
+// Given [34, -345, -1, 100] your solution will return -345
+// You can assume, for the purpose of this kata, that the supplied array will not be empty.
+
+// MY SOLUTION 
 function smallestInteger ($arr) {
     return min($arr);
 }

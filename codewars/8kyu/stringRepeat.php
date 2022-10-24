@@ -1,17 +1,19 @@
-<!-- OBJECTIVE -->
-<!-- String repeat -->
+<?php
 
-<!-- LINK -->
-<!-- https://www.codewars.com/kata/57a0e5c372292dd76d000d7e -->
+// OBJECTIVE
+// String repeat
 
-<!-- INSTRUCTIONS -->
-<!-- Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+// LINK
+// https://www.codewars.com/kata/57a0e5c372292dd76d000d7e
 
-Examples (input -> output)
-6, "I"     -> "IIIIII"
-5, "Hello" -> "HelloHelloHelloHelloHello" -->
+// INSTRUCTIONS
+// Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
 
-<!-- MY SOLUTION -->
+// Examples (input -> output)
+// 6, "I"     -> "IIIIII"
+// 5, "Hello" -> "HelloHelloHelloHelloHello"
+
+// MY SOLUTION
 function repeatStr($n, $str){
   return str_repeat($str, $n);
 }

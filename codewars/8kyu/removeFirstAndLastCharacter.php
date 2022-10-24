@@ -1,13 +1,15 @@
-<!-- OBJECTIVE -->
-<!-- Remove First and Last Character -->
+<?php
 
-<!-- LINK -->
-<!-- https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0 -->
+// OBJECTIVE
+// Remove First and Last Character
 
-<!-- INSTRUCTIONS -->
-<!-- It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters. -->
+// LINK 
+// https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0
 
-<!-- MY SOLUTION -->
+// INSTRUCTIONS
+// It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+// MY SOLUTION
 function remove_char(string $s): string {
   return substr($s,1,-1);
 }

@@ -1,19 +1,21 @@
-<!-- OBJECTIVE -->
-<!-- Rock Paper Scissors! -->
+<?php
 
-<!-- LINK -->
-<!-- https://www.codewars.com/kata/5672a98bdbdd995fad00000f -->
+// OBJECTIVE
+// Rock Paper Scissors!
 
-<!-- INSTRUCTIONS -->
-<!-- Let's play! You have to return which player won! In case of a draw return Draw!.
+// LINK
+// https://www.codewars.com/kata/5672a98bdbdd995fad00000f
 
-Examples(Input1, Input2 -- Output):
+// INSTRUCTIONS
+// Let's play! You have to return which player won! In case of a draw return Draw!.
 
-"scissors", "paper" -- "Player 1 won!"
-"scissors", "rock" -- "Player 2 won!"
-"paper", "paper" -- "Draw!" -->
+// Examples(Input1, Input2 -- Output):
 
-<!-- MY SOLUTION -->
+// "scissors", "paper" -- "Player 1 won!"
+// "scissors", "rock" -- "Player 2 won!"
+// "paper", "paper" -- "Draw!" 
+
+// MY SOLUTION
 function rpc ($p1, $p2) {
     if($p1 === $p2){
       return "Draw!";
@@ -24,16 +26,16 @@ function rpc ($p1, $p2) {
 }
 
 
-<!-- BEST PRACTICE -->
-<!-- function rpc ($p1, $p2) {
-    if ($p1 === $p2) {
-        return 'Draw!';
-    }
-    if ($p1 === 'rock' && $p2 === 'scissors' ||
-        $p1 === 'scissors' && $p2 === 'paper' ||
-        $p1 === 'paper' && $p2 === 'rock') {
-        return 'Player 1 won!';
-    } else {
-        return 'Player 2 won!';
-    }
-} -->
+// BEST PRACTICE
+// function rpc ($p1, $p2) {
+//     if ($p1 === $p2) {
+//         return 'Draw!';
+//     }
+//     if ($p1 === 'rock' && $p2 === 'scissors' ||
+//         $p1 === 'scissors' && $p2 === 'paper' ||
+//         $p1 === 'paper' && $p2 === 'rock') {
+//         return 'Player 1 won!';
+//     } else {
+//         return 'Player 2 won!';
+//     }
+// }
